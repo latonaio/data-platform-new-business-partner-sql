@@ -4,7 +4,7 @@ CREATE TABLE `data_platform_business_partner_general_data`
   `BusinessPartnerFullName`         varchar(200) DEFAULT NULL,
   `BusinessPartnerName`             varchar(100) NOT NULL,
   `Industry`                        varchar(200) DEFAULT NULL,
-  `LegalEntityRegistration`         varchar(20) DEFAULT NULL,  -- Peppol対応
+  `LegalEntityRegistration`         varchar(20) DEFAULT NULL,  -- Peppol
   `Country`                         varchar(3) NOT NULL,
   `Language`                        varchar(2) NOT NULL,
   `Currency`                        varchar(5) NOT NULL,
@@ -25,6 +25,8 @@ CREATE TABLE `data_platform_business_partner_general_data`
   `AddressID`                       int(12) DEFAULT NULL,
   `BusinessPartnerIDByExtSystem`    varchar(20) DEFAULT NULL,
   `BusinessPartnerIsBlocked`        tinyint(1) DEFAULT NULL,
+  `CertificateAuthorityChain`       varchar(2000) DEFAULT NULL,
+  `UsageControlChain`               varchar(2000) DEFAULT NULL,
   `CreationDate`                    date NOT NULL,
   `LastChangeDate`                  date NOT NULL,
   `IsMarkedForDeletion`             tinyint(1) DEFAULT NULL,

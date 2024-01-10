@@ -1,7 +1,7 @@
 CREATE TABLE `data_platform_business_partner_general_doc_data`
 (
   `BusinessPartner`                int(12) NOT NULL,
-  `DocType`                        varchar(20) NOT NULL,
+  `DocType`                        varchar(100) NOT NULL,
   `DocVersionID`                   int(4) NOT NULL,
   `DocID`                          varchar(100) NOT NULL,
   `FileExtension`                  varchar(20) NOT NULL,
