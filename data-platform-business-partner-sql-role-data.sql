@@ -8,7 +8,7 @@ CREATE TABLE `data_platform_business_partner_role_data`
     `LastChangeDate`        date NOT NULL,
     `IsMarkedForDeletion`   tinyint(1) DEFAULT NULL,
 
-    PRIMARY KEY (`BusinessPartner`, `BusinessPartnerRole`, `ValidityStartDate`, `ValidityEndDate`),
+    PRIMARY KEY (`BusinessPartner`, `BusinessPartnerRole`),
 
     CONSTRAINT `DataPlatformBusinessPartnerRoleData_fk` FOREIGN KEY (`BusinessPartner`) REFERENCES `data_platform_business_partner_general_data` (`BusinessPartner`)
     

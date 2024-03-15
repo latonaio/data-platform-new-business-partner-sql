@@ -11,6 +11,7 @@ data-platform-business-partner-sql には、sqlの設定ファイルとして、
 * data-platform-business-partner-sql-general-data.sql （データ連携基盤 ビジネスパートナ - 一般データ）
 * data-platform-business-partner-sql-general-doc-data.sql（データ連携基盤 ビジネスパートナ - 一般文書データ）
 * data-platform-business-partner-sql-role-data.sql（データ連携基盤 ビジネスパートナ - ロールデータ）  
+* data-platform-business-partner-sql-rank-data.sql（データ連携基盤 ビジネスパートナ - ランクデータ）  
 * data-platform-business-partner-sql-fin-inst-data.sql （データ連携基盤 ビジネスパートナ - 金融機関データ）
 * data-platform-business-partner-sql-accounting-data.sql（データ連携基盤 ビジネスパートナ - 会計データ）   
 
