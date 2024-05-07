@@ -9,6 +9,8 @@ CREATE TABLE `data_platform_business_partner_general_data`
   `Country`                         varchar(3) NOT NULL,
   `Language`                        varchar(2) NOT NULL,
   `Currency`                        varchar(5) DEFAULT NULL,
+  `Representative`                  varchar(40) DEFAULT NULL,
+  `PhoneNumber`                     varchar(40) DEFAULT NULL,
   `OrganizationBPName1`             varchar(100) DEFAULT NULL,
   `OrganizationBPName2`             varchar(100) DEFAULT NULL,
   `OrganizationBPName3`             varchar(100) DEFAULT NULL,

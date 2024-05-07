@@ -13,7 +13,10 @@ data-platform-business-partner-sql には、sqlの設定ファイルとして、
 * data-platform-business-partner-sql-role-data.sql（データ連携基盤 ビジネスパートナ - ロールデータ） 
 * data-platform-business-partner-sql-person-data.sql（データ連携基盤 ビジネスパートナ - 個人データ）
 * data-platform-business-partner-sql-address-data.sql （データ連携基盤 ビジネスパートナ - 住所データ）
+* data-platform-business-partner-sql-sns-data.sql（データ連携基盤 ビジネスパートナ - SNSデータ）
+* data-platform-business-partner-sql-gps-data.sql （データ連携基盤 ビジネスパートナ - GPSデータ）
 * data-platform-business-partner-sql-rank-data.sql（データ連携基盤 ビジネスパートナ - ランクデータ）
+* data-platform-business-partner-sql-person-organization-data.sql（データ連携基盤 ビジネスパートナ - 個人組織データ）
 * data-platform-business-partner-sql-person-mobile-phone-auth-data.sql（データ連携基盤 ビジネスパートナ - 個人携帯電話認証データ）
 * data-platform-business-partner-sql-person-google-account-auth-data.sql（データ連携基盤 ビジネスパートナ - 個人Googleアカウント認証データ）
 * data-platform-business-partner-sql-person-instagram-auth-data.sql（データ連携基盤 ビジネスパートナ - 個人Instagram認証データ）
