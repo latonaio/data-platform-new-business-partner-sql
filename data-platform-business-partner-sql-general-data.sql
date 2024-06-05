@@ -25,7 +25,7 @@ CREATE TABLE `data_platform_business_partner_general_data`
   `BusinessPartnerDeathDate`        date DEFAULT NULL,
   `GroupBusinessPartnerName1`       varchar(100) DEFAULT NULL,
   `GroupBusinessPartnerName2`       varchar(100) DEFAULT NULL,
-  `AddressID`                       int(12) NOT NULL,
+  `AddressID`                       int(12) DEFAULT NULL,
   `BusinessPartnerIDByExtSystem`    varchar(20) DEFAULT NULL,
   `BusinessPartnerIsBlocked`        tinyint(1) DEFAULT NULL,
   `CertificateAuthorityChain`       varchar(2000) DEFAULT NULL,

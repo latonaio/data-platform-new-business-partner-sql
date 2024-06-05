@@ -11,7 +11,8 @@ CREATE TABLE `data_platform_business_partner_rank_data`
 
     PRIMARY KEY (`BusinessPartner`, `RankType`, `Rank`),
 
-    CONSTRAINT `DPFMBusinessPartnerRankData_fk` FOREIGN KEY (`BusinessPartner`) REFERENCES `data_platform_business_partner_general_data` (`BusinessPartner`)
+    CONSTRAINT `DPFMBusinessPartnerRankData_fk` FOREIGN KEY (`BusinessPartner`) REFERENCES `data_platform_business_partner_general_data` (`BusinessPartner`),
+    CONSTRAINT `DPFMBusinessPartnerRankDataRank_fk` FOREIGN KEY (`RankType`, `Rank`) REFERENCES `data_platform_rank_rank_data` (`RankType`, `Rank`)
     
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
